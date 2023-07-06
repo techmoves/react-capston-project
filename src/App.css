@@ -89,3 +89,34 @@ grid-template-columns: auto auto;
   margin-left: 5px;
 }
 /* --------liststock---- */
+
+/* -----datapage----- */
+.currencies {
+  background-color: #f9629f;
+}
+
+.currenciesItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.input button {
+  border: none;
+  background-color: transparent;
+}
+
+.input button img {
+  width: 20px;
+  height: 20px;
+}
+
+.input input {
+  width: 60%;
+}
+/* -----datapage */

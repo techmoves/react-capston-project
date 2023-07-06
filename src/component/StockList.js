@@ -13,10 +13,10 @@ function StockList() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { currencies, currency } = useSelector((store) => store.currencies);
-  let currencyDetail = "";
+  let stockDetail = "";
   currencies.forEach((curr) => {
     if (curr.symbol === symbols) {
-      currencyDetail = curr.name;
+      stockDetail = curr.name;
     }
   });
 
@@ -42,7 +42,7 @@ function StockList() {
         <li>
           {" "}
           One
-          {currencyDetail} is worth
+          {stockDetail} is worth
         </li>
         <li>
           <span>{currency.usd}</span>{" "}

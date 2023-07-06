@@ -18,7 +18,7 @@ export const fetchStock = createAsyncThunk(
       const response = await axios.get(URL);
       return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue("something went wrong");
+      return thunkAPI.rejectWithValue("error");
     }
   }
 );
@@ -30,7 +30,8 @@ export const fetchStockData = createAsyncThunk(
       const response = await fetch(
         `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${name}.json`
       );
-      return await response.json();
+      // return await response.json();
+      const result = await response.json();
       const newCurrency = result[name];
          return newCurrency;
     } catch (error) {
@@ -43,7 +44,6 @@ const StockSlice = createSlice({
   name: "Stock",
   initialState,
   reducers: {},
-
   extraReducers: {
     [fetchStock.pending]: (state) => {
       state.isLoading = true;

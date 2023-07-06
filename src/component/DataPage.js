@@ -2,44 +2,44 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import setting from '../images/gear.png';
-import Currency from './Currency';
 import back from '../images/arrow-8.png';
 import mic from '../images/microphone.png';
 import "./App.css";
+import StockData from './stockData';
 
-function Currencies() {
+function DataPage() {
   const navigate = useNavigate();
-  const { currencies } = useSelector((store) => store.currencies);
+  const { DataPage } = useSelector((store) => store.DataPage);
 
   const [filterItem, setFilterItem] = useState('');
 
-  const filteredCurrencies = currencies.filter(
+  const filteredDataPage = DataPage.filter(
     (curr) => curr.name.toLowerCase().includes(filterItem.toLowerCase()),
   );
 
-  let myCurrencies = [];
+  let myDataPage = [];
 
-  if (filteredCurrencies.length > 0) {
-    (myCurrencies = filteredCurrencies);
+  if (filteredDataPage.length > 0) {
+    (myDataPage = filteredDataPage);
   } else {
-    (myCurrencies = currencies);
+    (myDataPage = DataPage);
   }
 
   return (
-    <div className="currencies">
+    <div className="DataPage">
       <div className="input">
         <button type="button" onClick={() => navigate('/')}><img src={back} alt="back-button" /></button>
         <input type="text" onChange={(e) => setFilterItem(e.target.value)} />
         <button type="button"><img src={mic} alt="mic-button" /></button>
         <button type="button"><img src={setting} alt="settings-button" /></button>
       </div>
-      <div className="currenciesItems">
-        {myCurrencies.map((eachCurrency) => (
-          <Currency key={eachCurrency.symbol} eachCurrency={eachCurrency} />
+      <div className="DataPageItems">
+        {myDataPage.map((eachStock) => (
+          <StockData key={eachStock.symbol} eachStock={eachStock} />
         ))}
       </div>
     </div>
   );
 }
 
-export default Currencies;
+export default DataPage;
