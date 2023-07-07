@@ -9,12 +9,12 @@ import StockData from './StockData';
 
 function DataPage() {
   const navigate = useNavigate();
-  const { DataPage } = useSelector((store) => store.DataPage);
+  const { StockData } = useSelector((store) => store.Stock);
 
   const [filterItem, setFilterItem] = useState('');
 
-  const filteredDataPage = DataPage.filter(
-    (curr) => curr.name.toLowerCase().includes(filterItem.toLowerCase()),
+  const filteredDataPage = StockData.filter((curr) =>
+    curr.name.toLowerCase().includes(filterItem.toLowerCase())
   );
 
   let myDataPage = [];
@@ -22,7 +22,7 @@ function DataPage() {
   if (filteredDataPage.length > 0) {
     (myDataPage = filteredDataPage);
   } else {
-    (myDataPage = DataPage);
+    myDataPage = StockData;
   }
 
   return (
