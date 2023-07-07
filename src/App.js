@@ -1,23 +1,25 @@
 import "./App.css";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 import StockList from "./component/StockList";
-import StockData from "./component/StockData";
+import DataPage from "./component/DataPage";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { fetchStockData } from "./redux/stock/StockSlice";
+import { fetchStock } from "./redux/stock/StockSlice";
+
 
 function App() {
   const dispatch = useDispatch;
-  useEffect(() =>{
-    dispatch(fetchStockData());
-  },[]);
-  
+
+  useEffect(() => {
+    dispatch(fetchStock());
+  }, [dispatch]);
+
   return (
     <div className="app">
-        <Routes>
-          <Route path="/" element={<StockData />} />
-          <Route path="/details/:symbols" element={<StockList />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<DataPage />} />
+        <Route path="/Stocklist/:symbols" element={<StockList />} />
+      </Routes>
     </div>
   );
 }

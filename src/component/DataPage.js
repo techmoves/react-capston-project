@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import setting from '../images/gear.png';
 import back from '../images/arrow-8.png';
 import mic from '../images/microphone.png';
-import "./App.css";
-import StockData from './stockData';
+// import "./App.css";
+import StockData from './StockData';
 
 function DataPage() {
   const navigate = useNavigate();
