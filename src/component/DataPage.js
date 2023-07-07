@@ -18,7 +18,7 @@ function DataPage() {
   );
 
   let myDataPage = [];
-
+ 
   if (filteredDataPage.length > 0) {
     (myDataPage = filteredDataPage);
   } else {
