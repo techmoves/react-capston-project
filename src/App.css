@@ -80,7 +80,7 @@ input {
   padding: 1.2rem;
 }
 
-.curName {
+.currency {
   margin-left: auto;
 }
 
@@ -123,3 +123,68 @@ input {
 }
 
 /* -----datapage */
+
+/* stockdata */
+.name {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.convert {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.currency {
+  background-color: #aa336a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.currency:nth-child(4n) {
+  background-color: #9f2b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.currency:nth-child(4n+1) {
+  background-color: #9f2b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.right {
+  align-self: flex-end;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px auto 0;
+}
+
+@media screen and (min-width: 480px) {
+  .currency:nth-child(4n) {
+    background-color: #aa336a;
+  }
+
+  .currency:nth-child(4n+1) {
+    background-color: #aa336a;
+  }
+
+  .currency:nth-child(even) {
+    background-color: #9f2b68;
+  }
+}
+
+/* stockData */

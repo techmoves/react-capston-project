@@ -6,7 +6,7 @@ import back from "../images/arrow-8.png";
 import mic from "../images/microphone.png";
 import setting from "../images/gear.png";
 import right from "../images/arrow-4.png";
-// import "./App.css";
+import "./App.css";
 
 function StockList() {
   const { symbols } = useParams();
