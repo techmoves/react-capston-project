@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { getCurrencies } from "./redux/Currencies/currenciesSlice";
-import Currencies from "./components/Currencies";
-import CurrencyDetails from "./components/CurrencyDetails";
+import { useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { getCurrencies } from './redux/Currencies/currenciesSlice';
+import Currencies from './components/Currencies';
+import CurrencyDetails from './components/CurrencyDetails';
 // import './style.css';
 function App() {
   const dispatch = useDispatch();

@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   currencies: [],
@@ -7,37 +7,37 @@ const initialState = {
 };
 
 export const getCurrencies = createAsyncThunk(
-  "currencies/getCurrencies",
+  'currencies/getCurrencies',
   async (_, thunkAPI) => {
     try {
       const resp = await fetch(
-        "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.min.json"
+        'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.min.json',
       );
       return resp.json();
     } catch (error) {
-      return thunkAPI.rejectWithValue("something went wrong");
+      return thunkAPI.rejectWithValue('something went wrong');
     }
-  }
+  },
 );
 
 export const getCurrency = createAsyncThunk(
-  "currency/getCurrency",
+  'currency/getCurrency',
   async (name, thunkAPI) => {
     try {
       const resp = await fetch(
-        `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${name}.json`
+        `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${name}.json`,
       );
       const result = await resp.json();
       const newCur = result[name];
       return newCur;
     } catch (error) {
-      return thunkAPI.rejectWithValue("something went wrong");
+      return thunkAPI.rejectWithValue('something went wrong');
     }
-  }
+  },
 );
 
 const currenciesSlice = createSlice({
-  name: "currencies",
+  name: 'currencies',
   initialState,
   reducers: {},
   extraReducers: {
