@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
-import right from "../images/arrow-4.png";
-// import "./App.css";
 
-function StockData({ eachStock }) {
+import right from "../images/arrow-4.png";
+
+function Currency({ eachCurrency }) {
   const navigate = useNavigate();
-  const { name, symbol } = eachStock;
+  const { name, symbol } = eachCurrency;
 
   return (
     <button
@@ -22,9 +22,9 @@ function StockData({ eachStock }) {
     </button>
   );
 }
-StockData.propTypes = {
-  eachStock: PropTypes.objectOf(PropTypes.string, PropTypes.string)
+Currency.propTypes = {
+  eachCurrency: PropTypes.objectOf(PropTypes.string, PropTypes.string)
     .isRequired,
 };
 
-export default StockData;
+export default Currency;
