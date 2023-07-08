@@ -2,12 +2,11 @@ import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getCurrency } from "../redux/Currencies/currenciesSlice";
-import "./App.css";
+import "./style.css";
 import back from "../images/arrow-8.png";
 import mic from "../images/microphone.png";
 import setting from "../images/gear.png";
 import right from "../images/arrow-4.png";
-import "./style.css";
 
 function CurrencyDetails() {
   const { symbols } = useParams();

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { getCurrencies } from "./redux/stock/currenciesSlice";
-import Currencies from "./component/Currencies";
-import CurrencyDetails from "./component/CurrencyDetails";
-import './style.css';
+import { getCurrencies } from "./redux/Currencies/currenciesSlice";
+import Currencies from "./components/Currencies";
+import CurrencyDetails from "./components/CurrencyDetails";
+// import './style.css';
 function App() {
   const dispatch = useDispatch();
 
