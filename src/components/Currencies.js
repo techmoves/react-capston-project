@@ -13,8 +13,9 @@ function Currencies() {
 
   const [filterItem, setFilterItem] = useState('');
 
-  const filteredCurrencies = 
-  currencies.filter((curr) =>curr.name.toLowerCase().includes(filterItem.toLowerCase()));
+  const filteredCurrencies = currencies.filter(
+    (curr) => curr.name.toLowerCase().includes(filterItem.toLowerCase()),
+  );
 
   let myCurrencies = [];
 
