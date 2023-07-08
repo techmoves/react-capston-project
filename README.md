@@ -69,12 +69,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## 🎥 Live Video <a name="live-video"></a>
 
-- [Live video Link]( )
+- [Live video Link]( https://www.loom.com/share/b56722fed5c34efbaa91aff1b649d265 )
 
 <!-- LIVE Link -->
 ## 🚀 Live link <a name=""></a>
-## - [Live Demo Link](https://www.loom.com/share/b56722fed5c34efbaa91aff1b649d265 )
-
+## - [Live Demo Link]( )
+- link coming soon
 ### Prerequisites
 
 - You only need a browser to run the html file in.
