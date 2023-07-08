@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
-
+import "./App.css";
 import right from "../images/arrow-4.png";
+import "./style.css";
 
 function Currency({ eachCurrency }) {
   const navigate = useNavigate();

@@ -3,9 +3,10 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import setting from "../images/gear.png";
 import Currency from "./Currency";
-
+import './App.css'
 import back from "../images/arrow-8.png";
 import mic from "../images/microphone.png";
+import "./style.css";
 
 function Currencies() {
   const navigate = useNavigate();
