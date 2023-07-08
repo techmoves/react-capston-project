@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getCurrencies());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">

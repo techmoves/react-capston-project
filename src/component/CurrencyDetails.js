@@ -21,8 +21,8 @@ function CurrencyDetails() {
   });
 
   useEffect(() => {
-    dispatch(getCurrency(symbols));
-  }, []);
+    dispatch(getCurrency());
+  }, [dispatch]);
 
   return (
     <div className="details">

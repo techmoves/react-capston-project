@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import myCurrencies from './Currencies';
-import CurrencyDetails from '../components/CurrencyDetails';
+import CurrencyDetails from '../component/CurrencyDetails';
 import myCurrency from './Currency';
 
 const reducer = (
