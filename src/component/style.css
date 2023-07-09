@@ -1,0 +1,122 @@
+.show {
+  background-color: #f9629f;
+}
+
+.currenciesItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.input button {
+  border: none;
+  background-color: transparent;
+}
+
+.input button img {
+  width: 20px;
+  height: 20px;
+}
+
+.input input {
+  width: 60%;
+}
+
+/* --------------------------------------------------------------------------------------1--- */
+.name {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.convert {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.currency {
+  background-color: #aa336a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.currency:nth-child(4n) {
+  background-color: #9f2b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.currency:nth-child(4n+1) {
+  background-color: #9f2b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.right {
+  align-self: flex-end;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px auto 0;
+}
+
+@media screen and (min-width: 480px) {
+  .currency:nth-child(4n) {
+    background-color: #aa336a;
+  }
+
+  .currency:nth-child(4n+1) {
+    background-color: #aa336a;
+  }
+
+  .currency:nth-child(even) {
+    background-color: #9f2b68;
+  }
+}
+
+/* ---------------------------------------------------2---- */
+.mydetail {
+  background-color: #f9629f;
+}
+
+.myList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.myList li {
+  background-color: #9f2b68;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.the-currency {
+  margin-left: auto;
+}
+
+.more-details {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}

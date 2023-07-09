@@ -1,0 +1,1758 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Test Component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mydetail"
+      >
+        <div
+          class="input"
+        >
+          <button
+            type="button"
+          >
+            <img
+              alt="back-option-button"
+              src="arrow-8.png"
+            />
+          </button>
+          <input
+            type="text"
+          />
+          <button
+            type="button"
+          >
+            <img
+              alt="microphone-button"
+              src="microphone.png"
+            />
+          </button>
+          <button
+            type="button"
+          >
+            <img
+              alt="option-button"
+              src="gear.png"
+            />
+          </button>
+        </div>
+        <ul
+          class="myList"
+        >
+          <li>
+             
+            One
+             
+            is worth
+          </li>
+          <li>
+            <span>
+              1.09313
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              US dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1.444408
+               
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Canadian dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              euros
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.000036
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              bitcoin
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.980155
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Swiss franc
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              11.617312
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Swedish krona
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              11.832592
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Norwegian Krone
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              7.472205
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Danish Krone
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1.636913
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Australian dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1.779618
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              New Zealand dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              8.559155
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Hong Kong dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              33.890867
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              New Taiwan dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1.477749
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Singapore dollars
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              7.84857
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Chinese renminbi
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              157.094163
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Japanese yen
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1430.541284
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              South Korean won
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              89.620831
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Indian rupee
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              18.761289
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Mexican peso
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              5.228562
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Brazilian real
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.905352
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Cayman Island dollar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.860808
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Gibraltar pound
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.77558
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Jordanian dinar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.419159
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Omani rial
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.410442
+               
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Bahraini dinar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              0.33616
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Kuwaiti dinar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              4.453097
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Polish złoty
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              38.533243
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Thai baht
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              3.966997
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Israeli new shekel
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              16446.471886
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Indonesian rupiah
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              23.730877
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Czech koruna
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              4.014963
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              UAE dirham
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              27.631384
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Turkish lira
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              371.413274
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Hungarian forint
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              874.034345
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Chilean peso
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              4.099536
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Saudi riyal
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              60.958448
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Philippine peso
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              5.112028
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Malaysian ringgit
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              4454.18946
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Colombian peso
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              92.506186
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Russian ruble
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              4.973091
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Romanian leu
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              3.942886
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Peruvian sol
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              1.962392
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Bulgarian lev
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              South African Rand
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Mozambican Medicash
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Zim Dollar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Argentine peso
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Saudi Arabia Kuwaiti dinar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              CHH
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              NZD
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              AUD
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mydetail"
+    >
+      <div
+        class="input"
+      >
+        <button
+          type="button"
+        >
+          <img
+            alt="back-option-button"
+            src="arrow-8.png"
+          />
+        </button>
+        <input
+          type="text"
+        />
+        <button
+          type="button"
+        >
+          <img
+            alt="microphone-button"
+            src="microphone.png"
+          />
+        </button>
+        <button
+          type="button"
+        >
+          <img
+            alt="option-button"
+            src="gear.png"
+          />
+        </button>
+      </div>
+      <ul
+        class="myList"
+      >
+        <li>
+           
+          One
+           
+          is worth
+        </li>
+        <li>
+          <span>
+            1.09313
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            US dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1.444408
+             
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Canadian dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            euros
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.000036
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            bitcoin
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.980155
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Swiss franc
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            11.617312
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Swedish krona
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            11.832592
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Norwegian Krone
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            7.472205
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Danish Krone
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1.636913
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Australian dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1.779618
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            New Zealand dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            8.559155
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Hong Kong dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            33.890867
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            New Taiwan dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1.477749
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Singapore dollars
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            7.84857
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Chinese renminbi
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            157.094163
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Japanese yen
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1430.541284
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            South Korean won
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            89.620831
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Indian rupee
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            18.761289
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Mexican peso
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            5.228562
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Brazilian real
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.905352
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Cayman Island dollar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.860808
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Gibraltar pound
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.77558
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Jordanian dinar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.419159
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Omani rial
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.410442
+             
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Bahraini dinar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            0.33616
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Kuwaiti dinar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            4.453097
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Polish złoty
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            38.533243
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Thai baht
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            3.966997
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Israeli new shekel
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            16446.471886
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Indonesian rupiah
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            23.730877
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Czech koruna
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            4.014963
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            UAE dirham
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            27.631384
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Turkish lira
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            371.413274
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Hungarian forint
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            874.034345
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Chilean peso
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            4.099536
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Saudi riyal
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            60.958448
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Philippine peso
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            5.112028
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Malaysian ringgit
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            4454.18946
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Colombian peso
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            92.506186
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Russian ruble
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            4.973091
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Romanian leu
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            3.942886
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Peruvian sol
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            1.962392
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Bulgarian lev
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            South African Rand
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Mozambican Medicash
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Zim Dollar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Argentine peso
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Saudi Arabia Kuwaiti dinar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            CHH
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            NZD
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            AUD
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

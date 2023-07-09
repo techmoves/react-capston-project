@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.My-container {
+  border: 2px solid #ec4c8a;
+  padding: 10px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* ---------------navBar section------------------------- */
+.nav-sec {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: #ec4c8a;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.back-option {
+  padding: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 7px 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-input {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* --------liststock---- */
+.details {
+  background-color: #f9629f;
+}
+
+.detailsList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailsList li {
+  background-color: #9f2b68;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.curName {
+  margin-left: auto;
+}
+
+.right-details {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+/* --------liststock---- */
+
+/* -----datapage----- */
+.currencies {
+  background-color: #f9629f;
+}
+
+.currenciesItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.input button {
+  border: none;
+  background-color: transparent;
+}
+
+.input button img {
+  width: 20px;
+  height: 20px;
+}
+
+.input input {
+  width: 60%;
+}
+
+/* -----datapage */
