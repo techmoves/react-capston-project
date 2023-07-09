@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import setting from '../images/gear.png';
-import Currency from './Currency';
+import Stock from './Currency';
 import './style.css';
 import back from '../images/arrow-8.png';
 import mic from '../images/microphone.png';
@@ -17,16 +17,16 @@ function Currencies() {
     (curr) => curr.name.toLowerCase().includes(filterItem.toLowerCase()),
   );
 
-  let myCurrencies = [];
+  let myStock = [];
 
   if (filteredCurrencies.length > 0) {
-    myCurrencies = filteredCurrencies;
+    myStock = filteredCurrencies;
   } else {
-    myCurrencies = currencies;
+    myStock = currencies;
   }
 
   return (
-    <div className="currencies">
+    <div className="show">
       <div className="input">
         <button type="button" onClick={() => navigate('/')}>
           <img src={back} alt="back-button" />
@@ -40,8 +40,8 @@ function Currencies() {
         </button>
       </div>
       <div className="currenciesItems">
-        {myCurrencies.map((eachCurrency) => (
-          <Currency key={eachCurrency.symbol} eachCurrency={eachCurrency} />
+        {myStock.map((eachCurrency) => (
+          <Stock key={eachCurrency.symbol} eachCurrency={eachCurrency} />
         ))}
       </div>
     </div>

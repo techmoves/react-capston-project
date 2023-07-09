@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { getCurrencies } from './redux/Currencies/currenciesSlice';
+import { getCurrencies } from './redux/Currencies/myStockcurrenciesSlice';
 import Currencies from './component/Currencies';
 import CurrencyDetails from './component/CurrencyDetails';
 // import './style.css';

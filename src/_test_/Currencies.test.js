@@ -16,13 +16,13 @@ const reducer = (
 const store = configureStore({ reducer });
 describe('Render Test', () => {
   it('Component renders correctly', () => {
-    const tree = render(
+    const mytree = render(
       <MemoryRouter>
         <Provider store={store}>
           <Currencies />
         </Provider>
       </MemoryRouter>,
     );
-    expect(tree).toMatchSnapshot();
+    expect(mytree).toMatchSnapshot();
   });
 });

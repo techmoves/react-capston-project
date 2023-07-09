@@ -36,7 +36,7 @@ export const getCurrency = createAsyncThunk(
   },
 );
 
-const currenciesSlice = createSlice({
+const myStockcurrenciesSlice = createSlice({
   name: 'currencies',
   initialState,
   reducers: {},
@@ -65,4 +65,4 @@ const currenciesSlice = createSlice({
   },
 });
 
-export default currenciesSlice.reducer;
+export default myStockcurrenciesSlice.reducer;

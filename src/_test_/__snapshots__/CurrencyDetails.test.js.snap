@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="details"
+        class="mydetail"
       >
         <div
           class="input"
@@ -15,7 +15,7 @@ Object {
             type="button"
           >
             <img
-              alt="back-button"
+              alt="back-option-button"
               src="arrow-8.png"
             />
           </button>
@@ -26,7 +26,7 @@ Object {
             type="button"
           >
             <img
-              alt="mic-button"
+              alt="microphone-button"
               src="microphone.png"
             />
           </button>
@@ -34,13 +34,13 @@ Object {
             type="button"
           >
             <img
-              alt="settings-button"
+              alt="option-button"
               src="gear.png"
             />
           </button>
         </div>
         <ul
-          class="detailsList"
+          class="myList"
         >
           <li>
              
@@ -54,13 +54,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               US dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -71,13 +71,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Canadian dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -87,13 +87,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               euros
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -103,13 +103,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               bitcoin
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -119,13 +119,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Swiss franc
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -135,13 +135,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Swedish krona
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -151,13 +151,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Norwegian Krone
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -167,13 +167,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Danish Krone
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -183,13 +183,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Australian dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -199,13 +199,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               New Zealand dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -215,13 +215,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Hong Kong dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -231,13 +231,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               New Taiwan dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -247,13 +247,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Singapore dollars
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -263,13 +263,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Chinese renminbi
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -279,13 +279,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Japanese yen
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -295,13 +295,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               South Korean won
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -311,13 +311,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Indian rupee
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -327,13 +327,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Mexican peso
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -343,13 +343,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Brazilian real
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -359,13 +359,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Cayman Island dollar
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -375,13 +375,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Gibraltar pound
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -391,13 +391,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Jordanian dinar
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -407,13 +407,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Omani rial
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -424,13 +424,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Bahraini dinar
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -440,13 +440,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Kuwaiti dinar
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -456,13 +456,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Polish złoty
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -472,13 +472,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Thai baht
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -488,13 +488,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Israeli new shekel
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -504,13 +504,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Indonesian rupiah
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -520,13 +520,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Czech koruna
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -536,13 +536,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               UAE dirham
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -552,13 +552,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Turkish lira
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -568,13 +568,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Hungarian forint
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -584,13 +584,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Chilean peso
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -600,13 +600,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Saudi riyal
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -616,13 +616,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Philippine peso
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -632,13 +632,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Malaysian ringgit
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -648,13 +648,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Colombian peso
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -664,13 +664,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Russian ruble
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -680,13 +680,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Romanian leu
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -696,13 +696,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Peruvian sol
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -712,13 +712,13 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
             >
               Bulgarian lev
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -728,13 +728,125 @@ Object {
             </span>
              
             <span
-              class="curName"
+              class="the-currency"
+            >
+              South African Rand
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Mozambican Medicash
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Zim Dollar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
             >
               Argentine peso
             </span>
             <img
               alt="right-arrow"
-              class="right-details"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              Saudi Arabia Kuwaiti dinar
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              CHH
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              NZD
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
+              src="arrow-4.png"
+            />
+          </li>
+          <li>
+            <span>
+              275.463714
+            </span>
+             
+            <span
+              class="the-currency"
+            >
+              AUD
+            </span>
+            <img
+              alt="right-arrow"
+              class="more-details"
               src="arrow-4.png"
             />
           </li>
@@ -744,7 +856,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="details"
+      class="mydetail"
     >
       <div
         class="input"
@@ -753,7 +865,7 @@ Object {
           type="button"
         >
           <img
-            alt="back-button"
+            alt="back-option-button"
             src="arrow-8.png"
           />
         </button>
@@ -764,7 +876,7 @@ Object {
           type="button"
         >
           <img
-            alt="mic-button"
+            alt="microphone-button"
             src="microphone.png"
           />
         </button>
@@ -772,13 +884,13 @@ Object {
           type="button"
         >
           <img
-            alt="settings-button"
+            alt="option-button"
             src="gear.png"
           />
         </button>
       </div>
       <ul
-        class="detailsList"
+        class="myList"
       >
         <li>
            
@@ -792,13 +904,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             US dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -809,13 +921,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Canadian dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -825,13 +937,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             euros
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -841,13 +953,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             bitcoin
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -857,13 +969,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Swiss franc
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -873,13 +985,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Swedish krona
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -889,13 +1001,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Norwegian Krone
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -905,13 +1017,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Danish Krone
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -921,13 +1033,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Australian dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -937,13 +1049,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             New Zealand dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -953,13 +1065,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Hong Kong dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -969,13 +1081,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             New Taiwan dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -985,13 +1097,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Singapore dollars
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1001,13 +1113,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Chinese renminbi
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1017,13 +1129,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Japanese yen
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1033,13 +1145,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             South Korean won
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1049,13 +1161,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Indian rupee
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1065,13 +1177,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Mexican peso
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1081,13 +1193,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Brazilian real
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1097,13 +1209,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Cayman Island dollar
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1113,13 +1225,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Gibraltar pound
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1129,13 +1241,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Jordanian dinar
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1145,13 +1257,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Omani rial
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1162,13 +1274,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Bahraini dinar
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1178,13 +1290,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Kuwaiti dinar
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1194,13 +1306,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Polish złoty
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1210,13 +1322,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Thai baht
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1226,13 +1338,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Israeli new shekel
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1242,13 +1354,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Indonesian rupiah
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1258,13 +1370,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Czech koruna
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1274,13 +1386,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             UAE dirham
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1290,13 +1402,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Turkish lira
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1306,13 +1418,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Hungarian forint
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1322,13 +1434,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Chilean peso
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1338,13 +1450,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Saudi riyal
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1354,13 +1466,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Philippine peso
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1370,13 +1482,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Malaysian ringgit
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1386,13 +1498,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Colombian peso
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1402,13 +1514,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Russian ruble
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1418,13 +1530,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Romanian leu
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1434,13 +1546,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Peruvian sol
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1450,13 +1562,13 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
           >
             Bulgarian lev
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>
@@ -1466,13 +1578,125 @@ Object {
           </span>
            
           <span
-            class="curName"
+            class="the-currency"
+          >
+            South African Rand
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Mozambican Medicash
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Zim Dollar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
           >
             Argentine peso
           </span>
           <img
             alt="right-arrow"
-            class="right-details"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            Saudi Arabia Kuwaiti dinar
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            CHH
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            NZD
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
+            src="arrow-4.png"
+          />
+        </li>
+        <li>
+          <span>
+            275.463714
+          </span>
+           
+          <span
+            class="the-currency"
+          >
+            AUD
+          </span>
+          <img
+            alt="right-arrow"
+            class="more-details"
             src="arrow-4.png"
           />
         </li>

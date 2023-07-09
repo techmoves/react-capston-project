@@ -1,4 +1,4 @@
-.currencies {
+.show {
   background-color: #f9629f;
 }
 
@@ -91,18 +91,18 @@
 }
 
 /* ---------------------------------------------------2---- */
-.details {
+.mydetail {
   background-color: #f9629f;
 }
 
-.detailsList {
+.myList {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.detailsList li {
+.myList li {
   background-color: #9f2b68;
   font-size: 1.2rem;
   font-weight: 400;
@@ -111,11 +111,11 @@
   padding: 1.2rem;
 }
 
-.curName {
+.the-currency {
   margin-left: auto;
 }
 
-.right-details {
+.more-details {
   width: 18px;
   height: 18px;
   margin-left: 5px;

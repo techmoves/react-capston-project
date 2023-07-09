@@ -20,13 +20,13 @@ describe('Render Test', () => {
       name: 'argentina',
       symbol: 'aug',
     };
-    const tree = render(
+    const mytree = render(
       <MemoryRouter>
         <Provider store={store}>
           <Currency eachCurrency={data} />
         </Provider>
       </MemoryRouter>,
     );
-    expect(tree).toMatchSnapshot();
+    expect(mytree).toMatchSnapshot();
   });
 });
